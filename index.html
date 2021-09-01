@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Colorwheel.png">
+    <script src="https://kit.fontawesome.com/6de3383711.js" crossorigin="anonymous"></script>
+    <title>Color Generator</title>
+</head>
+<body>
+    <div class="container-fluid" id="main">
+        <h1 class="mt-3 ml-auto mr-auto" style="text-align: center;">COLOR Generator</h1>
+
+        <div class="container mt-5" id="alerts" style="text-align: center;"><i class="fas fa-check-circle" style="color: green;"></i> Copied to the Clipboard !</div>
+        <div class="card mr-auto ml-auto mt-3" style="width: 18rem; height: 22rem;">
+            <div class="card-body" id="colour"></div>
+            <div class="card-footer">
+                <div class="row justify-content-center" style="align-items: center;">
+                    <input type="text" placeholder="#" id="color">
+                    <button class="btn" id="copy"><i class="fas fa-copy"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="center-but">
+            <button class="btn btn-light" id="btn">Click Me</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

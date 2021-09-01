@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    background-image: url(background.png);
+    background-size: cover;
+}
+#center-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+#alerts{
+    visibility: hidden;
+    background-color: white;
+    padding: 8px;
+    width: 300px;
+}
+card{
+    width: 18rem;
+
+}
+input{
+    border:none;
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+}
