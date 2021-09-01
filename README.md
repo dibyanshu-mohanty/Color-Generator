@@ -1,2 +1,2 @@
 # Color-Generator
-JavaScript Projects 1/15
+Project 1 of  15 Days , 15 JS projects
